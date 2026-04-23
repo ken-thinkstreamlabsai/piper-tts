@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "piper-tts": {
+      "command": "python3",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/piper_tts_mcp.py"],
+      "env": {
+        "PIPER_BIN": "${PIPER_BIN}",
+        "PIPER_MODEL_DIR": "${PIPER_MODEL_DIR}",
+        "PIPER_OUTPUT_DIR": "${PIPER_OUTPUT_DIR}"
+      }
+    }
+  }
+}
