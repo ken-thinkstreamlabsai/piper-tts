@@ -1,0 +1,10 @@
+{
+  "name": "piper-tts",
+  "version": "0.1.0",
+  "description": "Local text-to-speech synthesis powered by Piper TTS. Convert text to natural-sounding speech audio with multiple voice options and adjustable speed.",
+  "author": {
+    "name": "ThinkStream Labs"
+  },
+  "keywords": ["tts", "text-to-speech", "piper", "voice", "audio", "speech"],
+  "license": "MIT"
+}
