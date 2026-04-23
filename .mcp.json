@@ -4,9 +4,9 @@
       "command": "python3",
       "args": ["${CLAUDE_PLUGIN_ROOT}/servers/piper_tts_mcp.py"],
       "env": {
-        "PIPER_BIN": "${PIPER_BIN}",
-        "PIPER_MODEL_DIR": "${PIPER_MODEL_DIR}",
-        "PIPER_OUTPUT_DIR": "${PIPER_OUTPUT_DIR}"
+        "PIPER_BIN": "/Users/kenrom/anaconda3/bin/piper",
+        "PIPER_MODEL_DIR": "/Users/kenrom/projects/zeropoint/models/piper",
+        "PIPER_OUTPUT_DIR": "/tmp"
       }
     }
   }
